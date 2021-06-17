@@ -1,0 +1,17 @@
+[package]
+name = "cribbage-core"
+version = "0.1.5"
+authors = ["Zach Miller <25236373+zachmse@users.noreply.github.com>"]
+edition = "2018"
+description = "A (work-in-progress) library providing the core functionality of the game Cribbage."
+repository = "https://github.com/zachmse/cribbage-core"
+readme = "README.md"
+license = "MIT"
+publish = false
+exclude = ["resources/cribbage_hand_scores/*"]
+
+[features]
+extensive-tests = []
+
+[dependencies]
+rand = "0.8.4"
